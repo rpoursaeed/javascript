@@ -1,0 +1,32 @@
+
+- You are supposed to add some test cases for every challenge.
+
+- Please only use JavaScript's standard library. 
+- Write some test cases for each exercise, feel free to use your favourite test library if you need.
+- All the exercises are focused on the correctness, and
+  some of them also on performance.
+
+- It's perfect if you write the big-O complexity of your solutions in comment upper the methods.
+
+- Finally, If you have any question, feel free to ask!
+
+
+
+<script>
+
+const input= [-698, -101, 381, -101, 968, -929, -1,-2,3,-1000,200,-5, 821]
+
+function minimumOneDigitInteger(input){
+
+    const num= Math.min(...input.filter((num) => Math.abs(num) < 10))
+ 
+    return console.log(num)
+
+
+}
+
+
+minimumOneDigitInteger(input)
+
+
+</script>

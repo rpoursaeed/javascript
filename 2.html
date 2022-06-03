@@ -1,0 +1,44 @@
+
+
+## Minimum one-digit
+
+Write a method:
+
+    function minimumOneDigitInteger(input)
+
+Given an array of `Integer`, returns the minimum
+one-digit integer among them.
+
+Example: Given an input as follows:
+
+    [-698, -101, 381, -101, 968, -929, -1, -9, 821]
+
+your written method should return -9.
+
+Assume that:
+
+- Your input size is a positive integer less than 10,000;
+- Each input element is within the range [−1,000..1,000];
+- There is at least one one-digit element in the input.
+
+Just focus on the solution correctness in this exercise.
+
+
+<script>
+
+
+
+var coins=["Bitcoin", "Ethereum", "Tether", "Tether","TRON", "TRON", "Ethereum", "Tether"]
+var unique = coins.filter((value, index, self)=>{
+    return self.indexOf(value) === index;
+});
+ 
+var lengthofarray= (unique.length / 2) 
+
+for (var i = 0; i <= lengthofarray; i++) {
+    console.log(unique[i]);
+}
+
+
+
+</script>
